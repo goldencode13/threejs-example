@@ -9,7 +9,7 @@
 *.zip
 *.vi
 *~
-
+.tmp
 # OS or Editor folders
 .DS_Store
 ._*

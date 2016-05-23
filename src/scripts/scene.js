@@ -25,7 +25,7 @@ module.exports = {
     VIEW_ANGLE = 45;
     ASPECT = WIDTH / HEIGHT;
     NEAR = 1;
-    FAR = 10000;
+    FAR = 100000;
 
     scene = new THREE.Scene();
 
@@ -44,7 +44,7 @@ module.exports = {
 
     camera = new THREE.PerspectiveCamera(VIEW_ANGLE, ASPECT, NEAR, FAR);
 
-    camera.position.set(0, 1000, 3000);
+    camera.position.set(0, 2000, 2500);
     camera.rotation.x = -Math.PI / 12;
 
     scene.add(camera);
